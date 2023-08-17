@@ -1,0 +1,29 @@
+header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+header .logo {
+    background: url("../images/logo.png") no-repeat;
+    left: 20px;
+    height: 100%;
+}
+
+#api_status {
+	width: 40px; /* Set width to 40px for the circle */
+  	height: 40px; /* Set height to 40px for the circle */
+  	border-radius: 50%; /* Create a circle with border-radius */
+  	position: absolute; /* Set the position to absolute */
+  	top: 50%; /* Center vertically */
+  	right: 30px; /* Set 30px from the right border */
+  	transform: translateY(-50%); /* Center vertically using translateY */
+}
+
+.available {
+	 background-color: #ff545f;
+ }
+.unavailable{
+    background-color: #cccccc;
+}
